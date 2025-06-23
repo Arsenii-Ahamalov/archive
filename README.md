@@ -13,6 +13,7 @@ This repository collects my first coursework and learning experiments in Data Sc
 - Gym-Fitness-Data-Analysis-Visualization  
 - Titanic-Survival-Classification  
 - Life-Expectancy-Regression  
+- Fashion-MNIST-DimRed-Classification  
 - Fashion-MNIST-Neural-Networks  
 
 ---
@@ -59,6 +60,18 @@ Regression of country life expectancy from socioeconomic indicators.
 - Tune hyperparameters by RMSE, report RMSE and MAE on validation set  
 - Select final model, estimate expected RMSE on unseen data  
 - Produce `results.csv` with columns `Country`, `Year`, and `Life expectancy` for `evaluation.csv`  
+
+---
+
+### Fashion-MNIST-DimRed-Classification
+
+Dimensionality reduction and classification on Fashion-MNIST images.  
+- Load `train.csv`, split into training/validation/test subsets; explore sample images  
+- Train and tune Support Vector Machine (with at least two kernel choices), Naïve Bayes or LDA classifiers  
+- Report classification accuracy and discuss model suitability  
+- Use the generative model to sample 5 images per class, reshape to 28×28 and visualize  
+- Apply PCA and LLE for dimensionality reduction; repeat classification experiments and determine optimal embedding dimension  
+- Choose final model and generate `results.csv` with columns `ID` and `label` for `evaluate.csv`  
 
 ---
 
